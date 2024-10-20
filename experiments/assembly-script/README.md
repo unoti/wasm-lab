@@ -16,3 +16,7 @@ Then npx asinit .
 * `./package.json` Package info and commands to compile to WebAssembly
 * `./tests/index.js` - Test for checking that the module is functioning
 * `./index.html` - Starter file loading the module in a browser
+
+Try it
+* `npm run asbuild`
+* `npm test`
