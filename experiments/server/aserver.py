@@ -12,7 +12,7 @@ class WorldServer:
         result = self.instance.exports.addmul(1, 2, 3)
         print(result)
 
-    def test_callback(self, n):
+    def test_callback(self, n: int):
         print(f"test_callback: {n}")
 
 def main():

@@ -28,5 +28,5 @@ class WasmerRuntime(WasmRuntime):
             content = open(name, 'rb').read()
             module = Module(self._store, content)
             self._modules[name] = module
-        instance = Instance(module)
+        instance = Instance(module, self._import_object)
         return instance
